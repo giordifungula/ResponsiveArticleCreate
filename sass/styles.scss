@@ -68,7 +68,19 @@ a {
 .container {
     max-width: 900px;
     background: #fdfdfd;
+    // added background color
     color: #000;
-    // add a max width of 900
+    // add a max width of 900px
+    
+    .top-content{
+        // style top content and H3 inside
+        h3 {
+            font-size: 2em;
+            font-weight: 600;
+        }
+        .top-footer {
+            display: flex;
+        }
+    }
 }
 

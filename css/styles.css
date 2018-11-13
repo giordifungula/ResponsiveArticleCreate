@@ -53,5 +53,12 @@ a {
   background: #fdfdfd;
   color: #000;
 }
+.container .top-content h3 {
+  font-size: 2em;
+  font-weight: 600;
+}
+.container .top-content .top-footer {
+  display: flex;
+}
 
 /*# sourceMappingURL=styles.css.map */
