@@ -60,6 +60,15 @@ a {
     }
     iframe {
         width: 100%;
+        // display video full width
     }
+}
+
+// Main and container section
+.container {
+    max-width: 900px;
+    background: #fdfdfd;
+    color: #000;
+    // add a max width of 900
 }
 

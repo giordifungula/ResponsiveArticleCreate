@@ -48,4 +48,10 @@ a {
   width: 100%;
 }
 
+.container {
+  max-width: 900px;
+  background: #fdfdfd;
+  color: #000;
+}
+
 /*# sourceMappingURL=styles.css.map */
