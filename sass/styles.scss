@@ -1,12 +1,10 @@
 * {
     box-sizing: border-box;
+    overflow-x: hidden;
 }
 // Variables
 $light-font: #ccc;
-
-
-
-
+$full-width: 100%;
 // Variables End
 
 // Base Styles
@@ -20,7 +18,7 @@ body {
     // remove default spacing on body 
 }
 img {
-    width: 100%;
+    width: $full-width;
     // style default images
 }
 a {
@@ -30,7 +28,7 @@ a {
     font-size: 1.5em;
 }
 .wrapper {
-    width: 100%;
+    width: $full-width;
 }
 // Base Style ends
 
@@ -45,7 +43,7 @@ a {
     }
 
     .top-header {
-        width: 100%;
+        width: $full-width;
     }
     nav {
         // display: block;
@@ -59,7 +57,7 @@ a {
         }
     }
     iframe {
-        width: 100%;
+        width: $full-width;
         // display video full width
     }
 }
@@ -78,8 +76,11 @@ a {
             font-size: 2em;
             font-weight: 600;
         }
-        .top-footer {
+        .top-footer{
             display: flex;
+            i {
+                display: block; 
+            }
         }
     }
 }

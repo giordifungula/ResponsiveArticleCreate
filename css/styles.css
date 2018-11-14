@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-}
+  overflow-x: hidden; }
 
 body {
   background: #333;
@@ -8,57 +8,46 @@ body {
   font-weight: 300;
   color: #ccc;
   margin: 0;
-  padding: 0;
-}
+  padding: 0; }
 
 img {
-  width: 100%;
-}
+  width: 100%; }
 
 a {
   text-decoration: none;
   color: #ccc;
-  font-size: 1.5em;
-}
+  font-size: 1.5em; }
 
 .wrapper {
-  width: 100%;
-}
+  width: 100%; }
 
 .header {
-  background-color: #0e0d0d;
-}
-.header .logo {
-  height: 50px;
-  width: 90px;
-}
-.header .top-header {
-  width: 100%;
-}
-.header nav {
-  text-align: left;
-  width: 100vw;
-}
-.header nav a {
-  padding: 5px;
-  border-right: 1px solid #3df;
-  padding-right: 1em;
-}
-.header iframe {
-  width: 100%;
-}
+  background-color: #0e0d0d; }
+  .header .logo {
+    height: 50px;
+    width: 90px; }
+  .header .top-header {
+    width: 100%; }
+  .header nav {
+    text-align: left;
+    width: 100vw; }
+    .header nav a {
+      padding: 5px;
+      border-right: 1px solid #3df;
+      padding-right: 1.0em; }
+  .header iframe {
+    width: 100%; }
 
 .container {
   max-width: 900px;
   background: #fdfdfd;
-  color: #000;
-}
-.container .top-content h3 {
-  font-size: 2em;
-  font-weight: 600;
-}
-.container .top-content .top-footer {
-  display: flex;
-}
+  color: #000; }
+  .container .top-content h3 {
+    font-size: 2em;
+    font-weight: 600; }
+  .container .top-content .top-footer {
+    display: flex; }
+    .container .top-content .top-footer i {
+      display: block; }
 
 /*# sourceMappingURL=styles.css.map */
