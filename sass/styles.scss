@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+}
+// Variables
+$light-font: #ccc;
+
+
+
+
+// Variables End
+
+// Base Styles
+body {
+    background: #333;
+    font-size: 16px;
+    font-weight: 300;
+    color: $light-font;
+    margin: 0;
+    padding: 0;
+    // remove default spacing on body 
+}
+img {
+    width: 100%;
+    // style default images
+}
+a {
+    // style the links
+    text-decoration: none;
+    color: $light-font;
+    font-size: 1.5em;
+}
+.wrapper {
+    width: 100%;
+}
+// Base Style ends
+
+// ******* Header Files ************
+.header {
+    background-color: rgb(14, 13, 13);
+
+    .logo{
+        height: 50px;
+        width: 90px;
+        // logo that is inside header
+    }
+
+    .top-header {
+        width: 100%;
+    }
+    nav {
+        // display: block;
+        text-align: left;
+        width: 100vw;
+        a {
+            // margin: 10px;
+            padding: 5px;
+            border-right: 1px solid #3df;
+            padding-right: 1.0em;
+        }
+    }
+}
+
