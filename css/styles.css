@@ -42,12 +42,14 @@ a {
   max-width: 900px;
   background: #fdfdfd;
   color: #000; }
-  .container .top-content h3 {
-    font-size: 2em;
-    font-weight: 600; }
-  .container .top-content .top-footer {
-    display: flex; }
-    .container .top-content .top-footer i {
-      display: block; }
+  .container .top-content {
+    padding: 20px; }
+    .container .top-content h3 {
+      font-size: 2em;
+      font-weight: 600; }
+    .container .top-content .top-footer {
+      display: flex; }
+      .container .top-content .top-footer i {
+        display: block; }
 
 /*# sourceMappingURL=styles.css.map */
