@@ -3,15 +3,15 @@
     overflow-x: hidden;
 }
 // Variables
-$light-font: #ccc;
+$light-font: rgb(88, 79, 79);
 $full-width: 100%;
 // Variables End
 
 // Base Styles
 body {
-    background: #333;
-    font-size: 16px;
-    font-weight: 300;
+    // background: #333;
+    font-size: 18px;
+    font-weight: 500;
     color: $light-font;
     margin: 0;
     padding: 0;
@@ -25,10 +25,12 @@ a {
     // style the links
     text-decoration: none;
     color: $light-font;
-    font-size: 1.5em;
+    font-size: 1.2em;
 }
 .wrapper {
     width: $full-width;
+    background: #fdfdfd;
+    
 }
 // Base Style ends
 
@@ -65,10 +67,41 @@ a {
 // Main and container section
 .container {
     max-width: 900px;
-    background: #fdfdfd;
     // added background color
     color: #000;
     // add a max width of 900px
+    .top-heading {
+// Contents for the heading top middle and bottom
+        nav {
+            // Heading Navigation
+            a{
+                padding-right:20px;
+                font-weight: 200;
+            }
+            padding: 20px;
+            // creates spacing for the border colors
+
+            .top-link-a {
+                border: solid 1px rgb(230, 51, 81);
+                color: pink;
+                border-left: none;
+                border-bottom: none;
+            }
+            .top-link-b {
+                border: solid 1px rgb(31, 33, 131);
+                color: rgb(31, 33, 131);
+                border-left: none;
+                border-bottom: none;
+            }
+            .top-link-c {
+                border: solid 1px red;
+                border-left: none;
+                border-bottom: none;
+            }
+        }
+    }
+
+
     
     .top-content{
         padding: 20px;

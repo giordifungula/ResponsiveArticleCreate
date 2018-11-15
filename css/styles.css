@@ -3,10 +3,9 @@
   overflow-x: hidden; }
 
 body {
-  background: #333;
-  font-size: 16px;
-  font-weight: 300;
-  color: #ccc;
+  font-size: 18px;
+  font-weight: 500;
+  color: #584f4f;
   margin: 0;
   padding: 0; }
 
@@ -15,11 +14,12 @@ img {
 
 a {
   text-decoration: none;
-  color: #ccc;
-  font-size: 1.5em; }
+  color: #584f4f;
+  font-size: 1.2em; }
 
 .wrapper {
-  width: 100%; }
+  width: 100%;
+  background: #fdfdfd; }
 
 .header {
   background-color: #0e0d0d; }
@@ -40,8 +40,26 @@ a {
 
 .container {
   max-width: 900px;
-  background: #fdfdfd;
   color: #000; }
+  .container .top-heading nav {
+    padding: 20px; }
+    .container .top-heading nav a {
+      padding-right: 20px;
+      font-weight: 200; }
+    .container .top-heading nav .top-link-a {
+      border: solid 1px #e63351;
+      color: pink;
+      border-left: none;
+      border-bottom: none; }
+    .container .top-heading nav .top-link-b {
+      border: solid 1px #1f2183;
+      color: #1f2183;
+      border-left: none;
+      border-bottom: none; }
+    .container .top-heading nav .top-link-c {
+      border: solid 1px red;
+      border-left: none;
+      border-bottom: none; }
   .container .top-content {
     padding: 20px; }
     .container .top-content h3 {
