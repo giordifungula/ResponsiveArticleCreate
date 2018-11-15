@@ -17,6 +17,10 @@ body {
     padding: 0;
     // remove default spacing on body 
 }
+h1,h2,h3,h4,h5,h6 {
+    padding: 0;
+    margin: 5px;
+}
 img {
     width: $full-width;
     // style default images
@@ -103,7 +107,7 @@ a {
 
     
     .top-content{
-        padding: 20px;
+        // padding: 20px;
         // style top content and H3 inside
         h3 {
             font-size: 2em;
