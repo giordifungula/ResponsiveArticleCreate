@@ -25,12 +25,11 @@ a {
     // style the links
     text-decoration: none;
     color: $light-font;
-    font-size: 1.2em;
+    font-size: 1em;
 }
 .wrapper {
     width: $full-width;
     background: #fdfdfd;
-    
 }
 // Base Style ends
 
@@ -80,7 +79,6 @@ a {
             }
             padding: 20px;
             // creates spacing for the border colors
-
             .top-link-a {
                 border: solid 1px rgb(230, 51, 81);
                 color: pink;
@@ -95,6 +93,7 @@ a {
             }
             .top-link-c {
                 border: solid 1px red;
+                color: red;
                 border-left: none;
                 border-bottom: none;
             }
@@ -112,6 +111,15 @@ a {
         }
         .top-footer{
             display: flex;
+            .top-link {
+                padding: 3px;
+                a {
+                    color: rgb(224, 86, 109);
+                    font-size: 12px;
+                    border-right: 1px solid black;
+                    margin-right:1px;
+                }
+            }
             i {
                 display: block; 
             }
