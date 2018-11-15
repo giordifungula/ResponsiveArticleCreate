@@ -110,18 +110,23 @@ a {
         // padding: 20px;
         // style top content and H3 inside
         h3 {
-            font-size: 2em;
+            font-size: 1.5em;
             font-weight: 600;
+            margin: 10px;
         }
         .top-footer{
             display: flex;
+            // this container displays the whole div inline into a 1 row
             .top-link {
-                padding: 3px;
+                color: rgb(92, 85, 85);
+                padding-right: 3px;
                 a {
                     color: rgb(224, 86, 109);
                     font-size: 12px;
                     border-right: 1px solid black;
-                    margin-right:1px;
+                    // margin-right:10px;
+                    padding-right: 6px;
+                    // this style fixes the top inline navigation
                 }
             }
             i {
