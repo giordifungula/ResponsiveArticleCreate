@@ -3,18 +3,21 @@
     overflow-x: hidden;
 }
 // Variables
-$light-font: rgb(88, 79, 79);
+$light-font: #424242;
 $full-width: 100%;
+$dark-pink: rgb(175, 37, 106);
 // Variables End
 
 // Base Styles
 body {
     // background: #333;
-    font-size: 18px;
+    // font-size: 18px;
     font-weight: 500;
     color: $light-font;
     margin: 0;
+    font-weight: 300;
     padding: 10px;
+    font-family: Arial, sans-serif
     // remove default spacing on body 
 }
 h1,h2,h3,h4,h5,h6 {
@@ -30,6 +33,13 @@ a {
     text-decoration: none;
     color: $light-font;
     font-size: 1em;
+}
+.pink-text {
+    color:$dark-pink;
+    text-decoration: underline;
+    &:hover {
+        text-decoration: none;
+    }
 }
 .wrapper {
     width: $full-width;
@@ -85,7 +95,7 @@ a {
             // creates spacing for the border colors
             .top-link-a {
                 border: solid 1px rgb(230, 51, 81);
-                color: pink;
+                color:$dark-pink;
                 border-left: none;
                 border-bottom: none;
             }
@@ -142,7 +152,7 @@ main {
 
 
     p{
-        font-size: 1.1em;
+        font-size: 1.2em;
     }
 }
 // aside

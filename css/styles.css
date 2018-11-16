@@ -3,11 +3,12 @@
   overflow-x: hidden; }
 
 body {
-  font-size: 18px;
   font-weight: 500;
-  color: #584f4f;
+  color: #424242;
   margin: 0;
-  padding: 10px; }
+  font-weight: 300;
+  padding: 10px;
+  font-family: Arial, sans-serif; }
 
 h1, h2, h3, h4, h5, h6 {
   padding: 0;
@@ -18,8 +19,14 @@ img {
 
 a {
   text-decoration: none;
-  color: #584f4f;
+  color: #424242;
   font-size: 1em; }
+
+.pink-text {
+  color: #af256a;
+  text-decoration: underline; }
+  .pink-text:hover {
+    text-decoration: none; }
 
 .wrapper {
   width: 100%;
@@ -52,7 +59,7 @@ a {
       font-weight: 200; }
     .container .top-heading nav .top-link-a {
       border: solid 1px #e63351;
-      color: pink;
+      color: #af256a;
       border-left: none;
       border-bottom: none; }
     .container .top-heading nav .top-link-b {
@@ -85,11 +92,11 @@ a {
       display: block; }
 
 main p {
-  font-size: 1.1em; }
+  font-size: 1.2em; }
 
 aside h3 {
   border-top: 2px solid grey;
-  border-right: 2px solid #584f4f;
+  border-right: 2px solid #424242;
   width: 200px; }
 
 /*# sourceMappingURL=styles.css.map */
