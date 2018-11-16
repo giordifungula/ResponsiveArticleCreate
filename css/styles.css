@@ -7,7 +7,7 @@ body {
   font-weight: 500;
   color: #584f4f;
   margin: 0;
-  padding: 0; }
+  padding: 10px; }
 
 h1, h2, h3, h4, h5, h6 {
   padding: 0;
@@ -75,11 +75,21 @@ a {
       color: #5c5555;
       padding-right: 3px; }
       .container .top-content .top-footer .top-link a {
-        color: #e0566d;
-        font-size: 12px;
+        color: #ec7387;
+        font-size: 14px;
+        font-weight: 500;
+        font: bold;
         border-right: 1px solid black;
         padding-right: 6px; }
     .container .top-content .top-footer i {
       display: block; }
+
+main p {
+  font-size: 1.1em; }
+
+aside h3 {
+  border-top: 2px solid grey;
+  border-right: 2px solid #584f4f;
+  width: 200px; }
 
 /*# sourceMappingURL=styles.css.map */

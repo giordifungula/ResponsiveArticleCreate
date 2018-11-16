@@ -14,7 +14,7 @@ body {
     font-weight: 500;
     color: $light-font;
     margin: 0;
-    padding: 0;
+    padding: 10px;
     // remove default spacing on body 
 }
 h1,h2,h3,h4,h5,h6 {
@@ -121,8 +121,10 @@ a {
                 color: rgb(92, 85, 85);
                 padding-right: 3px;
                 a {
-                    color: rgb(224, 86, 109);
-                    font-size: 12px;
+                    color: rgb(236, 115, 135);
+                    font-size: 14px;
+                    font-weight: 500;
+                    font: bold;
                     border-right: 1px solid black;
                     // margin-right:10px;
                     padding-right: 6px;
@@ -135,4 +137,20 @@ a {
         }
     }
 }
+// main section that contains the text
+main {
 
+
+    p{
+        font-size: 1.1em;
+    }
+}
+// aside
+aside {
+    h3{
+        // styles the border for the aside 
+        border-top: 2px solid grey;
+        border-right: 2px solid $light-font;
+        width: 200px;
+    }
+}
