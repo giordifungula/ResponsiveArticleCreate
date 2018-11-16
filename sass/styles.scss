@@ -167,8 +167,10 @@ aside {
         border-top: 2px solid grey;
         border-right: 2px solid $light-font;
         width: 200px;
+        // decrease width for the border to be visible        
         text-transform: uppercase;
-        // decrease width for the border to be visible
+        margin: 20px;
+        // adds some breathing space on top of the heading
     }
     figure {
         padding: 0;
@@ -182,3 +184,5 @@ iframe {
      width: $full-width;
     // display video full width
 }
+
+// media queries
