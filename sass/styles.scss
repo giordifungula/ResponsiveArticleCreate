@@ -190,12 +190,40 @@ aside {
     // has a 10px gap for spacing
 }
 
-
+// advert right is displayed as hide
+.ad-right{
+    display: none;
+    // hide default advert on the right
+}
 
 // media queries
 @media(min-width: 600px){
-    .grid {
-        grid-template-columns: 1fr 1fr;
-        // 2 columns for tablet view 
-    }
+    // .grid {
+    //     grid-template-columns: 1fr 1fr;
+    //     // 2 columns for tablet view 
+    // }
+    // .top-img {
+    //     // Top imag with advert on right
+    //     display: grid;
+    //     grid-template-columns: 1fr 1fr 200px;
+    //     // display the image in 2 columns
+
+    //     img {
+    //         column-span: 2;
+    //     }
+    // }
+}
+
+@media(min-width: 750px){
+    // .ad-right {
+    //     display: block;
+    //     // display the content on right
+    // }
+    // .container {
+    //     display: grid;
+
+        
+    // }
+   
+
 }

@@ -97,8 +97,7 @@ aside iframe {
   grid-template-columns: 1fr;
   grid-gap: 10px; }
 
-@media (min-width: 600px) {
-  .grid {
-    grid-template-columns: 1fr 1fr; } }
+.ad-right {
+  display: none; }
 
 /*# sourceMappingURL=styles.css.map */
