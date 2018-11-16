@@ -32,23 +32,6 @@ a {
   width: 100%;
   background: #fdfdfd; }
 
-.header {
-  background-color: #0e0d0d; }
-  .header .logo {
-    height: 50px;
-    width: 90px; }
-  .header .top-header {
-    width: 100%; }
-  .header nav {
-    text-align: left;
-    width: 100vw; }
-    .header nav a {
-      padding: 5px;
-      border-right: 1px solid #3df;
-      padding-right: 1.0em; }
-  .header iframe {
-    width: 100%; }
-
 .container {
   max-width: 900px;
   color: #000; }
@@ -94,9 +77,14 @@ a {
 main p {
   font-size: 1.2em; }
 
+aside .pink-text {
+  text-decoration: none; }
 aside h3 {
   border-top: 2px solid grey;
   border-right: 2px solid #424242;
   width: 200px; }
+
+iframe {
+  width: 100%; }
 
 /*# sourceMappingURL=styles.css.map */

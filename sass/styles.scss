@@ -48,34 +48,34 @@ a {
 // Base Style ends
 
 // ******* Header Files ************
-.header {
-    background-color: rgb(14, 13, 13);
+// .header {
+//     background-color: rgb(14, 13, 13);
 
-    .logo{
-        height: 50px;
-        width: 90px;
-        // logo that is inside header
-    }
+//     .logo{
+//         height: 50px;
+//         width: 90px;
+//         // logo that is inside header
+//     }
 
-    .top-header {
-        width: $full-width;
-    }
-    nav {
-        // display: block;
-        text-align: left;
-        width: 100vw;
-        a {
-            // margin: 10px;
-            padding: 5px;
-            border-right: 1px solid #3df;
-            padding-right: 1.0em;
-        }
-    }
-    iframe {
-        width: $full-width;
-        // display video full width
-    }
-}
+//     .top-header {
+//         width: $full-width;
+//     }
+//     nav {
+//         // display: block;
+//         text-align: left;
+//         width: 100vw;
+//         a {
+//             // margin: 10px;
+//             padding: 5px;
+//             border-right: 1px solid #3df;
+//             padding-right: 1.0em;
+//         }
+//     }
+//     iframe {
+//         width: $full-width;
+//         // display video full width
+//     }
+// }
 
 // Main and container section
 .container {
@@ -157,10 +157,22 @@ main {
 }
 // aside
 aside {
-    h3{
+    // style the link inside the aside to remove line
+    .pink-text {
+        text-decoration: none;
+    }
+    h3 {
         // styles the border for the aside 
         border-top: 2px solid grey;
         border-right: 2px solid $light-font;
         width: 200px;
+        // decrease width for the border to be visible
     }
+}
+
+
+// video Section under aside
+iframe {
+     width: $full-width;
+    // display video full width
 }
