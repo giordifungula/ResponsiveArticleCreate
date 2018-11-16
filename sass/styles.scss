@@ -114,8 +114,6 @@ a {
         }
     }
 
-
-    
     .top-content{
         // padding: 20px;
         // style top content and H3 inside
@@ -134,9 +132,9 @@ a {
                     color: rgb(236, 115, 135);
                     font-size: 14px;
                     font-weight: 500;
-                    font: bold;
+                    // font: bold;
                     border-right: 1px solid black;
-                    // margin-right:10px;
+                    margin-right: 10px;
                     padding-right: 6px;
                     // this style fixes the top inline navigation
                 }
@@ -177,12 +175,27 @@ aside {
         margin: 0;
         // removes default spacing on the figure tag
     }
+    // video Section under aside
+    iframe {
+        width: $full-width;
+    // display video full width
+    }
+    
+}
+.grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+    // 1column for mobile first approach
+    // has a 10px gap for spacing
 }
 
-// video Section under aside
-iframe {
-     width: $full-width;
-    // display video full width
-}
+
 
 // media queries
+@media(min-width: 600px){
+    .grid {
+        grid-template-columns: 1fr 1fr;
+        // 2 columns for tablet view 
+    }
+}
