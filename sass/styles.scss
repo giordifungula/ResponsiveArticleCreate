@@ -195,6 +195,16 @@ aside {
         display: grid;
         grid-template-columns: 80% 20%;
         
+        .ad-right {
+            // style the aside right advert
+            border-right: 1px solid #393092;
+            // border-left: 1px solid #393092;
+            h3 {
+                color: $dark-pink;
+            } 
+
+        }
+        
     }
 }
 

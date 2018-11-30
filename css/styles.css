@@ -100,7 +100,11 @@ aside iframe {
 @media (min-width: 601px) {
   .top-img {
     display: grid;
-    grid-template-columns: 80% 20%; } }
+    grid-template-columns: 80% 20%; }
+    .top-img .ad-right {
+      border-right: 1px solid #393092; }
+      .top-img .ad-right h3 {
+        color: #af256a; } }
 @media (max-width: 600px) {
   .ad-right {
     display: none; } }
