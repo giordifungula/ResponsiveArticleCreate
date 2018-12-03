@@ -6,6 +6,8 @@
 $light-font: #424242;
 $full-width: 100%;
 $dark-pink: rgb(175, 37, 106);
+$blue: #393092;
+
 // Variables End
 
 // Base Styles
@@ -17,12 +19,14 @@ body {
     margin: 0;
     font-weight: 300;
     padding: 10px;
-    font-family: Arial, sans-serif
+    font-family: Arial, sans-serif;
     // remove default spacing on body 
 }
 h1,h2,h3,h4,h5,h6 {
-    padding: 0;
-    margin: 5px;
+    padding: 5px;
+    // margin: 5px;
+    margin: 3px auto;
+
 }
 img {
     width: $full-width;
@@ -196,12 +200,17 @@ aside {
         
         .ad-right {
             // style the aside right advert
-            border-right: 1px solid #393092;
-            // border-left: 1px solid #393092;
+
             h3 {
                 color: $dark-pink;
+                border-bottom: 3px solid $blue;
+                border-left: 3px solid $blue;
             } 
 
+        }
+        .right-border {
+            border-right: 3px solid $blue;
+            // border right 
         }
         
     }

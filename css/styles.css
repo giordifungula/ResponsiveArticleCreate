@@ -11,8 +11,8 @@ body {
   font-family: Arial, sans-serif; }
 
 h1, h2, h3, h4, h5, h6 {
-  padding: 0;
-  margin: 5px; }
+  padding: 5px;
+  margin: 3px auto; }
 
 img {
   width: 100%; }
@@ -102,10 +102,12 @@ aside iframe {
   .top-img {
     display: grid;
     grid-template-columns: 64% 20%; }
-    .top-img .ad-right {
-      border-right: 1px solid #393092; }
-      .top-img .ad-right h3 {
-        color: #af256a; } }
+    .top-img .ad-right h3 {
+      color: #af256a;
+      border-bottom: 3px solid #393092;
+      border-left: 3px solid #393092; }
+    .top-img .right-border {
+      border-right: 3px solid #393092; } }
 @media (max-width: 600px) {
   .ad-right {
     display: none; } }
