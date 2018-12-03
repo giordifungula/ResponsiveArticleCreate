@@ -33,7 +33,6 @@ a {
   background: #fdfdfd; }
 
 .container {
-  max-width: 900px;
   color: #000; }
   .container .top-heading nav {
     padding: 20px; }
@@ -74,8 +73,10 @@ a {
     .container .top-content .top-footer i {
       display: block; }
 
-main p {
-  font-size: 1.2em; }
+main {
+  max-width: 900px; }
+  main p {
+    font-size: 1.2em; }
 
 aside .pink-text {
   text-decoration: none;
@@ -100,7 +101,7 @@ aside iframe {
 @media (min-width: 601px) {
   .top-img {
     display: grid;
-    grid-template-columns: 80% 20%; }
+    grid-template-columns: 64% 20%; }
     .top-img .ad-right {
       border-right: 1px solid #393092; }
       .top-img .ad-right h3 {

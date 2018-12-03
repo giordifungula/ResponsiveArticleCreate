@@ -79,7 +79,6 @@ a {
 
 // Main and container section
 .container {
-    max-width: 900px;
     // added background color
     color: #000;
     // add a max width of 900px
@@ -147,7 +146,7 @@ a {
 }
 // main section that contains the text
 main {
-
+    max-width: 900px;
 
     p{
         font-size: 1.2em;
@@ -190,10 +189,10 @@ aside {
     // has a 10px gap for spacing
 }
 
-@media(min-width: 601px){
+@media(min-width: 601px) {
     .top-img {
         display: grid;
-        grid-template-columns: 80% 20%;
+        grid-template-columns: 64% 20%;
         
         .ad-right {
             // style the aside right advert
@@ -206,6 +205,12 @@ aside {
         }
         
     }
+}
+
+@media(min-width: 700px){
+    // .top-img {
+    //     grid-template-columns: 700px 300px;
+    // }
 }
 
 
