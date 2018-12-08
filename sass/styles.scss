@@ -225,6 +225,21 @@ aside {
 
     }
 }
+// ============== Comment section ================= //
+.comment {
+    border: 2px solid rgb(156, 156, 156);
+    .blue-text {
+        color: #393092;
+    }
+     h3 {
+         font-size: 2.3em;
+     }
+
+     .light-text {
+         color: #424242;
+         font-size: 1.2em;
+     }
+}
 
 @media(min-width: 700px){
     // .top-img {

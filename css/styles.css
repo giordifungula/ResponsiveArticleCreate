@@ -140,6 +140,20 @@ aside iframe {
     border-right: 3px solid #393092;
   }
 }
+.comment {
+  border: 2px solid #9c9c9c;
+}
+.comment .blue-text {
+  color: #393092;
+}
+.comment h3 {
+  font-size: 2.3em;
+}
+.comment .light-text {
+  color: #424242;
+  font-size: 1.2em;
+}
+
 @media (max-width: 600px) {
   .ad-right {
     display: none;
