@@ -252,16 +252,21 @@ aside {
             overflow: hidden;
         // Remove overflow content
          }
+         border-left: 2px solid #424242;
+         padding: 1em;
 
      }
      .comment-item:first-child {
-         border-left: 2px solid #424242;
-         padding: 10px;
      }
      .comment-item:nth-of-type(2) {
-         padding:2em;
+         padding:1em;
          border-left: 2px solid #424242;
-         margin: 1.2em;
+         margin: 1.1em;
+     }
+     .comment-item:nth-of-type(3) {
+        border-left: 2px solid #424242;
+        padding:1em;
+         margin: 1.5em;
      }
 }
 

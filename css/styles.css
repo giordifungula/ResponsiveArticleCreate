@@ -156,17 +156,22 @@ aside iframe {
   border-left: 2px solid #af256a;
   padding: 0.5em;
 }
+.comment .comment-item {
+  border-left: 2px solid #424242;
+  padding: 1em;
+}
 .comment .comment-item p {
   overflow: hidden;
 }
-.comment .comment-item:first-child {
-  border-left: 2px solid #424242;
-  padding: 10px;
-}
 .comment .comment-item:nth-of-type(2) {
-  padding: 2em;
+  padding: 1em;
   border-left: 2px solid #424242;
-  margin: 1.2em;
+  margin: 1.1em;
+}
+.comment .comment-item:nth-of-type(3) {
+  border-left: 2px solid #424242;
+  padding: 1em;
+  margin: 1.5em;
 }
 
 @media (max-width: 600px) {
