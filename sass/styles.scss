@@ -228,6 +228,9 @@ aside {
 // ============== Comment section ================= //
 .comment {
     border: 2px solid rgb(156, 156, 156);
+    padding: 1.2em;
+    // some spacing and border around the comment section
+
     .blue-text {
         color: #393092;
     }
@@ -238,6 +241,8 @@ aside {
      .light-text {
          color: #424242;
          font-size: 1.2em;
+         border-left: 5px solid $dark-pink;
+         padding: 20px;
      }
 }
 
