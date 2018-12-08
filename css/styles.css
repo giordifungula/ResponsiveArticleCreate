@@ -152,9 +152,12 @@ aside iframe {
 }
 .comment .light-text {
   color: #424242;
-  font-size: 1.2em;
-  border-left: 5px solid #af256a;
-  padding: 20px;
+  font-size: 1em;
+  border-left: 2px solid #af256a;
+  padding: 0.5em;
+}
+.comment .comment-item p {
+  overflow: hidden;
 }
 .comment .comment-item:first-child {
   border-left: 2px solid #424242;
@@ -163,7 +166,7 @@ aside iframe {
 .comment .comment-item:nth-of-type(2) {
   padding: 2em;
   border-left: 2px solid #424242;
-  margin: 1.5em;
+  margin: 1.2em;
 }
 
 @media (max-width: 600px) {
