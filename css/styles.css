@@ -90,8 +90,10 @@ a {
   margin-right: 10px;
   padding-right: 6px;
 }
-.container .top-content .top-footer i {
-  display: block;
+.container .top-content i {
+  font-size: 2em;
+  overflow: hidden;
+  margin: 10px;
 }
 
 main {

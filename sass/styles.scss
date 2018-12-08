@@ -148,8 +148,15 @@ a {
                 }
             }
             i {
-                display: block; 
+                // display: block; 
+                // font-size: 2em;
             }
+        }
+        // ======= Icons inside the header ========= 
+        i {
+            font-size: 2em;
+            overflow: hidden;
+            margin: 10px;
         }
     }
 }
